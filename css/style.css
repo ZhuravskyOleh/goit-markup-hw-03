@@ -8,6 +8,9 @@
     --btn-hover-color: #188CE8;
     --footer-contact-color: rgba(255, 255, 255, 0.6);
     --background-btn-portpholio: #F5F4FA;
+    --border-bottom-color: #ECECEC;
+    --team-background-color: #F5F4FA;
+    --portfolio-card-border-color: #EEEEEE;
 }
 
 
@@ -47,7 +50,7 @@ h1,h2,h3,h4,h5,h6,p {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--border-bottom-color);
 }
 
 .header-list {
@@ -252,7 +255,7 @@ h1,h2,h3,h4,h5,h6,p {
 /* team section */
 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--team-background-color);
 }
 
 .team-title {
@@ -419,7 +422,7 @@ h1,h2,h3,h4,h5,h6,p {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-    border: 1px solid #EEEEEE;
+    border: 1px solid var(--portfolio-card-border-color);
 }
 
 .portfolio-item:nth-child(3n) {
