@@ -144,7 +144,8 @@ h1,h2,h3,h4,h5,h6,p {
 
 
 .hero-title {
-    margin-bottom: 30px;
+    width: 696px;
+    margin: 0 auto 30px auto;
     
     font-size: 44px;
     font-weight: 900;
@@ -422,7 +423,6 @@ h1,h2,h3,h4,h5,h6,p {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-    border: 1px solid var(--portfolio-card-border-color);
 }
 
 .portfolio-item:nth-child(3n) {
@@ -435,7 +435,6 @@ h1,h2,h3,h4,h5,h6,p {
 
 .works-title {
     margin-bottom: 4px;
-    margin-left: 24px;
 
     font-size: 18px;
     font-weight: 700;
@@ -444,14 +443,17 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .works-descr {
-    margin-bottom: 20px;
-    margin-left: 24px;
-
     font-size: 16px;
     line-height: 1.9;
 }
 
 .portfolio-img {
     display: block;
-    margin-bottom: 20px;
+}
+
+.portfolio-descr {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--portfolio-card-border-color);
+    border-left: 1px solid var(--portfolio-card-border-color);
+    border-right: 1px solid var(--portfolio-card-border-color);
 }
